@@ -1,6 +1,6 @@
 
-exports.each = function (arr = [], iterable = [], onStepDone = ()=>{}, onDone = ()=>{}) {
-  if (typeof iterable == 'function') {
+exports.each = function (arr = [], iterable = [], onStepDone = () => {}, onDone = () => {}) {
+  if (typeof iterable === 'function') {
     iterable = [iterable]
   }
 
